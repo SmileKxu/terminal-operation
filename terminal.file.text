@@ -27,8 +27,8 @@ du -mh ___ (file name)   查看文件大小
 Deb软件包机制，常用dpkg, apt
 本地安装:
 sudo dpkg -i _____(安装包名字)    安装本地软件指令
-sudo dekg -r _____(安装包名字)    卸载安装软件(单纯卸载)
-sudo dekg -P _____(安装包前缀)    卸载安装软件(纯粹卸载)
+sudo dpkg -r _____(安装包名字)    卸载安装软件(单纯卸载)
+sudo dpkg -P _____(安装包前缀)    卸载安装软件(纯粹卸载)
 在现安装:
 sudo apt-get update     更新本地软件资源
 sudo apt-get install ____(安装包 name)   软件安装包安装
